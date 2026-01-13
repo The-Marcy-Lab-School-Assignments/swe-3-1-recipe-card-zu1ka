@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -13,4 +14,108 @@ img {
   width: 100%;
 }
 
-/* Add your CSS below */
+
+figure > img {
+  width: 500px;
+  border-radius: 10px;
+  border: 2px solid #a52a2a;
+}
+body{
+  background-color:#A8DF8E ;
+
+}
+
+
+main{
+  /* background-color: yellow; */
+  /* height: 100vh; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin-top: 40px;
+ 
+}
+h1{
+  color: #DE802B;
+   margin: 10px;
+}
+
+p, ul{
+ 
+   margin: 30px;
+   font-size: larger;
+}
+figure{
+  padding: 25px;
+}
+header > nav > a{
+  text-decoration: none;
+  color:#DE802B ;
+  margin: 10px;
+  
+}
+
+hr{
+  border: 1.5px solid #a52a2a;
+  width: 80%;
+  margin: 35px;
+  border-radius: 10px; 
+}
+
+section{
+  min-width: 80%;
+  background-color: #F0FFDF;
+  border-left: 10px solid brown;
+  border-radius: 12px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+.github{
+  color: #a52a2a;
+  text-decoration: none;
+
+}
+
+.list-section{
+ border-left: 0px;
+ padding: 20px;
+}
+.list-section > ul > li {
+background-color: #A8DF8E ; 
+margin: 5px;
+padding: 5px;
+
+}
+
+.ol-section{
+ 
+  width: 80%;
+  padding: 20px 60px;
+  border: 0px;
+
+  
+}
+
+.ol-section > ol > li{
+ 
+  width: 100%;
+  margin: 5px;
+  padding: 8px;
+  text-align: start;
+}
+
+header > nav > a:hover{
+color: #F0FFDF;
+}
+
+
+footer > p  > a > strong:hover{
+  color: #fff;
+}
+ 
